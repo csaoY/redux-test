@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
-import 'antd/dist/antd.css';
 import { Provider } from 'react-redux'
 import store from '../store'
 import Todo from './components/todo'
@@ -14,9 +13,9 @@ class App extends Component {
     render(){
         return(
             <Provider store={store}>
-            <div>hhaskdgh
-
-            </div>
+                <div>hhaskdgh
+              <Todo/>
+               </div>
             </Provider>
 
         );

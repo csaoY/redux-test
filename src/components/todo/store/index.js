@@ -1,5 +1,5 @@
 import * as actionCreators from './actionCreators'
 import * as constants from './constants'
-import reducer from './reducer'
+import Reducer from './reducer'
 
-export default {actionCreators,constants,reducer}
+export default {actionCreators,constants,Reducer}
