@@ -1,9 +1,10 @@
 
+import { fromJS } from 'immutable';
 import * as constants from './constants';
 
-const defaultState = {
-    list:'hahahha'
-};
+const defaultState = fromJS({
+    list:'这里是你的心上人'
+});
 
 export default (state = defaultState, action) => {
     switch(action.type) {
